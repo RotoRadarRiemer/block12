@@ -12,7 +12,7 @@ header {
     position: absolute;
     top: 0;
     width: 100%;
-    background-color: #f3f4f6;
+    background-color: #1A2373;
     padding: 10px 20px;
     box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
 }
@@ -31,13 +31,13 @@ nav li {
 
 nav a {
     text-decoration: none;
-    color: #555;
+    color: #fdfdfd;
     padding: 5px 10px;
     transition: background-color 0.3s;
 }
 
 nav a:hover {
-    background-color: #ddd;
+    background-color: #3949AB;
 }
 
 .container {
@@ -98,6 +98,37 @@ main {
     margin: 0.5em 0;
 }
 
+.portfolio {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 100px;
+}
+
+.project {
+    background-color: white;
+    margin: 20px;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 80%;
+    text-align: center;
+}
+
+.project h2 {
+    margin-top: 0;
+}
+
+.project-pic {
+    width: 300px;
+    height: 200px;
+    object-fit: cover;
+    margin: 10px 0;
+}
+
+.project p {
+    margin: 10px 0;
+}
 
 
 
